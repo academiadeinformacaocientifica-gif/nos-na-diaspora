@@ -89,7 +89,7 @@ export function Header() {
           <div className="flex items-center justify-between gap-4">
             {/* Logo */}
             <Link to="/" className="flex-shrink-0">
-              <img src={logo} alt="AngolaOnline" className="h-12 md:h-16 w-auto" />
+              <img src={logo} alt="Nós na Diáspora" className="h-12 md:h-16 w-auto" />
             </Link>
 
             {/* Desktop Navigation */}

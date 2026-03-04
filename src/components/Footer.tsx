@@ -63,10 +63,10 @@ export function Footer() {
           {/* Logo and social */}
           <div className="col-span-2 md:col-span-4 lg:col-span-1">
             <Link to="/" className="inline-block mb-4">
-              <img src={logo} alt="AngolaOnline" className="h-12 w-auto brightness-0 invert" />
+              <img src={logo} alt="Nós na Diáspora" className="h-12 w-auto brightness-0 invert" />
             </Link>
             <p className="text-sm text-primary-foreground/70 mb-4">
-              O melhor de Angola, diariamente.
+              A voz dos angolanos pelo mundo.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="hover:text-secondary transition-colors" aria-label="Facebook">
@@ -139,7 +139,7 @@ export function Footer() {
             <h4 className="font-semibold mb-4 text-secondary">Contactos</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/70">
               <li>Luanda, Angola</li>
-              <li>redacao@angolaonline.co.ao</li>
+              <li>redacao@nosnadiaspora.com</li>
               <li>+244 923 000 000</li>
             </ul>
           </div>
@@ -149,7 +149,7 @@ export function Footer() {
       {/* Copyright */}
       <div className="border-t border-primary-foreground/10">
         <div className="container py-4 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-primary-foreground/50">
-          <p>© 2026 AngolaOnline. Todos os direitos reservados.</p>
+          <p>© 2026 Nós na Diáspora. Todos os direitos reservados.</p>
           <div className="flex items-center gap-4">
             <Link to="/privacidade" className="hover:text-primary-foreground transition-colors">
               Privacidade

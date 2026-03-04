@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="container py-12">
           <div className="max-w-5xl mx-auto">
             <h1 className="text-3xl md:text-4xl font-bold mb-6">Contactos</h1>
-            
+
             <div className="grid md:grid-cols-2 gap-12">
               {/* Contact Info */}
               <div>
@@ -44,8 +44,8 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Email</h3>
                       <p className="text-muted-foreground">
-                        Redação: redacao@angolaonline.co.ao<br />
-                        Publicidade: publicidade@angolaonline.co.ao
+                        Redação: redacao@nosnadiaspora.com<br />
+                        Publicidade: publicidade@nosnadiaspora.com
                       </p>
                     </div>
                   </div>
@@ -76,7 +76,7 @@ const Contact = () => {
               {/* Contact Form */}
               <div className="bg-card p-6 md:p-8 rounded-lg border border-border">
                 <h2 className="text-xl font-semibold mb-6">Envie-nos uma mensagem</h2>
-                
+
                 <form className="space-y-4">
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div className="space-y-2">

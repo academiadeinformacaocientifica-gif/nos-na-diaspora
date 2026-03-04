@@ -1,3 +1,4 @@
+# Script de Automacao para o GitHub
 $git_exe = "C:\Program Files\Git\bin\git.exe"
 
 # Le o token de um arquivo local (ignorado pelo Git)
@@ -50,5 +51,4 @@ else {
     Write-Host "ERRO: Ocorreu um problema no push." -ForegroundColor Red
 }
 
-Write-Host "--- Concluido ---"
-Read-Host "Pressione Enter para fechar"
+Write-Host "`n--- Concluido ---"

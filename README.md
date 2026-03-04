@@ -1,90 +1,43 @@
-# AngolaOnline
+# Nós na Diáspora
 
-Portal institucional de notícias de Angola. Cobertura completa de economia, política, sociedade, ambiente, indústria, saúde, tecnologia, cultura e educação. Informação credível e profissional sobre o melhor de Angola, diariamente.
+Portal de notícias para a comunidade angolana na diáspora.
 
-## Tecnologias Utilizadas
+## Sobre
 
-- **Frontend**: React com TypeScript
-- **Build Tool**: Vite
-- **Estilização**: Tailwind CSS
-- **Componentes UI**: ShadCN UI
-- **Roteamento**: React Router DOM
-- **Gerenciamento de Estado**: TanStack Query
-- **Ícones**: Lucide React
+O **Nós na Diáspora** é uma plataforma dedicada a conectar angolanos espalhados pelo mundo com informação de qualidade sobre a sua terra natal e as comunidades na diáspora.
 
-## Funcionalidades
+## Stack Tecnológica
 
-- Página inicial com notícias em destaque e últimas atualizações
-- Navegação por categorias (Economia, Política, Sociedade, etc.)
-- Páginas de artigos individuais
-- Design responsivo para desktop e mobile
-- Suporte a múltiplos idiomas (Português, Inglês, Francês)
-- Pesquisa integrada
-- Links para redes sociais
+- **Frontend:** React + TypeScript + Vite
+- **Styling:** Tailwind CSS + shadcn/ui
+- **Backend:** Supabase (Database, Auth, Storage)
 
-## Instalação e Execução
+## Desenvolvimento Local
 
-### Pré-requisitos
-- Node.js (versão 18 ou superior)
-- npm ou yarn
+```bash
+# Instalar dependências
+npm install
 
-### Passos
-1. Clone o repositório:
-   ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd angolaonline-main
-   ```
+# Iniciar servidor de desenvolvimento
+npm run dev
 
-2. Instale as dependências:
-   ```bash
-   npm install
-   ```
+# Build de produção
+npm run build
 
-3. Execute o servidor de desenvolvimento:
-   ```bash
-   npm run dev
-   ```
-
-4. Abra [http://localhost:5173](http://localhost:5173) no navegador.
-
-## Scripts Disponíveis
-
-- `npm run dev`: Inicia o servidor de desenvolvimento
-- `npm run build`: Compila o projeto para produção
-- `npm run build:dev`: Compila em modo desenvolvimento
-- `npm run lint`: Executa o linter ESLint
-- `npm run preview`: Visualiza a build de produção
-
-## Estrutura do Projeto
-
-```
-src/
-├── components/          # Componentes reutilizáveis
-│   ├── ui/             # Componentes ShadCN
-│   ├── Header.tsx
-│   ├── Footer.tsx
-│   └── ...
-├── pages/              # Páginas da aplicação
-├── data/               # Dados mock
-├── hooks/              # Hooks customizados
-├── lib/                # Utilitários
-└── assets/             # Imagens e recursos
+# Enviar para o GitHub
+npm run push
 ```
 
-## Contribuição
+## Categorias
 
-Contribuições são bem-vindas! Siga estes passos:
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
-## Licença
-
-Este projeto está sob a licença MIT.
+- Comunidade na Diáspora
+- Economia e Negócios
+- Política
+- Sociedade e Cultura
+- Integração e Cidadania
+- Tecnologia
+- Saúde e Educação
 
 ## Contacto
 
-Para questões ou sugestões, entre em contacto através de [contactos@angolaonline.ao](mailto:contactos@angolaonline.ao).
+Para questões ou sugestões, entre em contacto através de [redacao@nosnadiaspora.com](mailto:redacao@nosnadiaspora.com).

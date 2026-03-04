@@ -39,7 +39,7 @@ const Admin = () => {
     categorySlug: '',
     image: '',
     images: '', // Adicionado para a galeria
-    author: 'AngolaOnline',
+    author: 'Nós na Diáspora',
     isFeatured: false,
   });
   const [searchTerm, setSearchTerm] = useState('');
@@ -101,7 +101,7 @@ const Admin = () => {
       categorySlug: '',
       image: '',
       images: '',
-      author: 'AngolaOnline',
+      author: 'Nós na Diáspora',
       isFeatured: false,
     });
   };
@@ -152,7 +152,7 @@ const Admin = () => {
         <div className="flex justify-between items-center mb-8">
           <div>
             <h1 className="text-3xl font-bold text-primary">Gestão de Conteúdos</h1>
-            <p className="text-muted-foreground">Administre o portal AngolaOnline via Supabase</p>
+            <p className="text-muted-foreground">Administre o portal Nós na Diáspora via Supabase</p>
           </div>
           <Button onClick={logout} variant="outline" className="gap-2">
             Sair
