@@ -13,6 +13,9 @@ import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Admin from "./pages/Admin";
 import SearchPage from "./pages/Search";
+import Publicidade from "./pages/Publicidade";
+import Estatuto from "./pages/Estatuto";
+import FichaTecnica from "./pages/FichaTecnica";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -33,6 +36,9 @@ const App = () => (
               <Route path="/login" element={<Login />} />
               <Route path="/admin" element={<Admin />} />
               <Route path="/pesquisa" element={<SearchPage />} />
+              <Route path="/publicidade" element={<Publicidade />} />
+              <Route path="/estatuto-editorial" element={<Estatuto />} />
+              <Route path="/ficha-tecnica" element={<FichaTecnica />} />
               {/* Category route */}
               <Route path="/:slug" element={<Category />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
