@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Youtube, Mail } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import logo from '@/assets/logo-aon.png';
+import logo from '@/assets/logo-nnd.png';
 
 const footerLinks = {
   categories: [

@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Search, Menu, X, Facebook, Instagram, Linkedin, Youtube } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import logo from '@/assets/logo-aon.png';
+import logo from '@/assets/logo-nnd.png';
 import BreakingNews from './BreakingNews';
 
 const mainCategories = [
