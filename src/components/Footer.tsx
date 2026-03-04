@@ -25,7 +25,7 @@ const footerLinks = {
     { name: 'Sobre Nós', href: '/sobre' },
     { name: 'Contactos', href: '/contactos' },
     { name: 'Publicidade', href: '/publicidade' },
-    { name: 'Estatuto Editorial', href: '/estatuto' },
+    { name: 'Estatuto Editorial', href: '/estatuto-editorial' },
     { name: 'Ficha Técnica', href: '/ficha-tecnica' },
   ],
 };
